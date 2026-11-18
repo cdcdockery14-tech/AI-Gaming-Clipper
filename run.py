@@ -11,11 +11,14 @@ FOLDER = Path(__file__).resolve().parent
 PYTHON = sys.executable
 
 # Programs to run in order
+
 STEPS = [
     ("Audio Analysis", "audio_detector.py"),
     ("Combined Highlight Detection", "combined_detector.py"),
     ("Video Export", "clipper_ffmpeg.py"),
+    ("Performance Report", "report.py"),
 ]
+
 
 print("=" * 45)
 print("       AI AUTOMATED GAMING CLIPPER")
